@@ -16,3 +16,12 @@ C:\Users\sathchan\OneDrive - Microsoft\GitHub\SystemDesigns-and-Programming\algo
 C:\Users\sathchan\OneDrive - Microsoft\GitHub\SystemDesigns-and-Programming\algorithms\AlgorithmsLibrary\obj\Debug\netcoreapp2.0\AlgorithmsLibrary.AssemblyInfo.cs
 C:\Users\sathchan\OneDrive - Microsoft\GitHub\SystemDesigns-and-Programming\algorithms\AlgorithmsLibrary\obj\Debug\netcoreapp2.0\AlgorithmsLibrary.dll
 C:\Users\sathchan\OneDrive - Microsoft\GitHub\SystemDesigns-and-Programming\algorithms\AlgorithmsLibrary\obj\Debug\netcoreapp2.0\AlgorithmsLibrary.pdb
+C:\Work\GitHub\SystemDesigns-and-Programming\algorithms\AlgorithmsLibrary\bin\Debug\netcoreapp2.0\AlgorithmsLibrary.deps.json
+C:\Work\GitHub\SystemDesigns-and-Programming\algorithms\AlgorithmsLibrary\bin\Debug\netcoreapp2.0\AlgorithmsLibrary.dll
+C:\Work\GitHub\SystemDesigns-and-Programming\algorithms\AlgorithmsLibrary\bin\Debug\netcoreapp2.0\AlgorithmsLibrary.pdb
+C:\Work\GitHub\SystemDesigns-and-Programming\algorithms\AlgorithmsLibrary\obj\Debug\netcoreapp2.0\AlgorithmsLibrary.csprojAssemblyReference.cache
+C:\Work\GitHub\SystemDesigns-and-Programming\algorithms\AlgorithmsLibrary\obj\Debug\netcoreapp2.0\AlgorithmsLibrary.csproj.CoreCompileInputs.cache
+C:\Work\GitHub\SystemDesigns-and-Programming\algorithms\AlgorithmsLibrary\obj\Debug\netcoreapp2.0\AlgorithmsLibrary.AssemblyInfoInputs.cache
+C:\Work\GitHub\SystemDesigns-and-Programming\algorithms\AlgorithmsLibrary\obj\Debug\netcoreapp2.0\AlgorithmsLibrary.AssemblyInfo.cs
+C:\Work\GitHub\SystemDesigns-and-Programming\algorithms\AlgorithmsLibrary\obj\Debug\netcoreapp2.0\AlgorithmsLibrary.dll
+C:\Work\GitHub\SystemDesigns-and-Programming\algorithms\AlgorithmsLibrary\obj\Debug\netcoreapp2.0\AlgorithmsLibrary.pdb

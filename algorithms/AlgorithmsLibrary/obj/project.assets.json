@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sathchan\\OneDrive - Microsoft\\GitHub\\SystemDesigns-and-Programming\\algorithms\\AlgorithmsLibrary\\AlgorithmsLibrary.csproj",
+      "projectUniqueName": "C:\\Work\\GitHub\\SystemDesigns-and-Programming\\algorithms\\AlgorithmsLibrary\\AlgorithmsLibrary.csproj",
       "projectName": "AlgorithmsLibrary",
-      "projectPath": "C:\\Users\\sathchan\\OneDrive - Microsoft\\GitHub\\SystemDesigns-and-Programming\\algorithms\\AlgorithmsLibrary\\AlgorithmsLibrary.csproj",
+      "projectPath": "C:\\Work\\GitHub\\SystemDesigns-and-Programming\\algorithms\\AlgorithmsLibrary\\AlgorithmsLibrary.csproj",
       "packagesPath": "C:\\Users\\sathchan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sathchan\\OneDrive - Microsoft\\GitHub\\SystemDesigns-and-Programming\\algorithms\\AlgorithmsLibrary\\obj\\",
+      "outputPath": "C:\\Work\\GitHub\\SystemDesigns-and-Programming\\algorithms\\AlgorithmsLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -690,7 +690,6 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://microsoftit.pkgs.visualstudio.com/DefaultCollection/_packaging/MicrosoftIT/nuget/v3/index.json": {},
-        "https://microsoftit.pkgs.visualstudio.com/_packaging/EPS/nuget/v3/index.json": {},
         "https://microsoftit.pkgs.visualstudio.com/_packaging/SharedPlatforms/nuget/v3/index.json": {}
       },
       "frameworks": {
