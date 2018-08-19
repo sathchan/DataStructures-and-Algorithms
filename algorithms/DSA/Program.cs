@@ -8,8 +8,8 @@ namespace DSA
         static void Main(string[] args)
         {
 
-            PartitionLabels obj = new PartitionLabels();
-            var result = obj.Main("ababcbacadefegdehijhklij");
+            FindAndReplace obj = new FindAndReplace();
+            var result = obj.Main(new string[] { "abc", "deq", "mee", "aqq", "dkd", "ccc" }, "abb");
 
             Console.WriteLine(result.ToString());
             Console.ReadLine();
