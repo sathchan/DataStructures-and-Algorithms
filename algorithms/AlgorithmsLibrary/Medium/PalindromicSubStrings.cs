@@ -28,7 +28,7 @@
     public class PalindromicSubStrings
     {
         int count;
-        public int CountSubstrings(string s)
+        public int Main(string s)
         {
             if (string.IsNullOrEmpty(s)) return 0;
             for (int i = 0; i < s.Length; i++)
