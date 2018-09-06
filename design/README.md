@@ -4,20 +4,20 @@ Systems design implies a systematic approach to the design of a system. It may t
 
 #### Important System Design Principles are but are not limited to-
 
-- Identification of right Algorithms and Data Structures
 - Decomposition - Split into Manageable and Reusable components. The design patterns are considered with finding good ways to achieve code-reuse
-- Scalability - All components must be Horizontally scalable. Consider parallelism wherever useful.
+- Identification of right Algorithms and Data Structures
 - Execution Time - System running time
-- Extensible
-- Testable
-- Security	
+- Testable 
 
 #### Some of the Architecture tenants are - 
 	
 - Cloud
 - Multi-tenant
 - Failures (Fault Tolerance and Resiliency)
+- Scalability - All components must be Horizontally scalable. Consider parallelism wherever useful
+- Extensible - Add something to the existing system
 - Availability (HA, DR) – Always On Architecture 
+- Security
 - Performance
 - Asynchronous 
 - Automation, Infrastructure as Code
