@@ -70,8 +70,40 @@ We need a distribution scheme that does not depend directly on the number of ser
 	
 This is how the key A 'moved' from server S1 to S2, through a cache miss
 
+### 2. CAP Theorem
+
+The acronym CAP summarizes the terms Consistency, Availability and Partition Tolerance. In a distributed system
+	
+- *Consistency* means that all nodes see the same data at the same time.
+- *Availability* means a guarantee that every request receives a response about whether it was successful or failed
+- *Partition Tolerance* means the system continues to operate despite arbitrary message loss. 
+
+<div align="center">
+  <img src="https://github.com/sathchan/SystemDesigns-and-Programming/blob/master/assets/CAP_1.png" alt="" width="600"/>
+  <br>
+</div>
+
+When you are designing a distributed system you can get cannot achieve all three of Consistency, Availability and Partition tolerance. You can pick only two of.
+	
+
+Any given distributed system is located on one of the sides (CA), (CP) or (AP) of our triangle. In real world 24/7 applications high availability is always required. So it can be questioned if a (CP) system makes any sense and if our choice is only between (CA) and (AP).
+
+
+Cloud platforms rely on horizontal scaling (scale-out), i.e. the load is distributed over a lot of single nodes
+
+<div align="center">
+  <img src="https://github.com/sathchan/SystemDesigns-and-Programming/blob/master/assets/cloud_elastic.png" alt="" width="600"/>
+  <br>
+</div>
+
+For that reason a cloud infrastructure has to cope with regular outages of single nodes (partition tolerance). High availability is a must have, since the end user will not tolerate response times above a certain level. Cloud platform (or at least large parts of it) is an (AP) system. Because of the CAP theorem we can’t have ACID consistency in an (AP) system
+
 *References*: 
 
 https://www.toptal.com/big-data/consistent-hashing
 
 http://www.acodersjourney.com/2017/10/system-design-interview-consistent-hashing/
+
+https://blog.codecentric.de/en/2012/02/cloud-computing-basics-cap-theorem-2/
+
+http://ksat.me/a-plain-english-introduction-to-cap-theorem/
