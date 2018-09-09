@@ -98,6 +98,17 @@ Cloud platforms rely on horizontal scaling (scale-out), i.e. the load is distrib
 
 For that reason a cloud infrastructure has to cope with regular outages of single nodes (partition tolerance). High availability is a must have, since the end user will not tolerate response times above a certain level. Cloud platform (or at least large parts of it) is an (AP) system. Because of the CAP theorem we can’t have ACID consistency in an (AP) system
 
+### 3. Load Balancing
+
+Two of the most critical requirements for any online service provider are availability and redundancy. If even a single component fails or is overwhelmed by requests, the server is overloaded and both the customer and the business suffer.
+	
+Load balancing attempts to resolve this issue by sharing the workload across multiple components. An incoming request can be routed from an overtaxed server to one that has more resources available. Load balancing has a variety of applications from network switches to database servers
+
+<div align="center">
+  <img src="https://github.com/sathchan/SystemDesigns-and-Programming/blob/master/assets/LoadBalancing.gif" alt="" width="600"/>
+  <br>
+</div>
+
 *References*: 
 
 https://www.toptal.com/big-data/consistent-hashing
@@ -107,3 +118,5 @@ http://www.acodersjourney.com/2017/10/system-design-interview-consistent-hashing
 https://blog.codecentric.de/en/2012/02/cloud-computing-basics-cap-theorem-2/
 
 http://ksat.me/a-plain-english-introduction-to-cap-theorem/
+
+https://blog.stackpath.com/glossary/load-balancing/
